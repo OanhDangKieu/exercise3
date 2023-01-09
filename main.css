@@ -1,0 +1,365 @@
+body, html {
+    margin:0;
+    width:100%;
+    background-color: white; 
+    font-family: Arial, Helvetica, sans-serif;  
+}
+a {
+    text-decoration: none;
+    color:grey
+}
+h1, h2 {
+    text-transform: uppercase;
+}
+.product{
+    margin: 70px;
+    font-size:50px;
+}
+.nav-top {
+    display:flex;
+    justify-content: flex-end;
+}
+.nav-top-item {
+    margin:20px 20px 10px 20px;
+    font-size: 20px;
+}
+.nav-main {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-list {
+    list-style: none;
+    font-size:20px; 
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.nav-list-item {
+    display: inline-block; 
+    margin:20px;
+}
+.item-icon {
+    display: inline-block;
+    margin: 20px;
+    opacity: 0.4;
+    background-color: white;    
+}
+button {
+    cursor: pointer;
+    border: none;
+}
+.fa-solid {
+    font-size: 30px;
+}
+.slide {
+    background-color: rgb(240, 239, 239);
+    display: flex;
+    padding:60px 70px;
+    justify-content: space-between;
+}
+.slide-item1 {
+    flex:3;
+    margin-right: 20px;
+}
+.slide-item2 {
+    flex:1;
+}
+#item1 {
+    color:rgb(68, 68, 226);
+    font-size:60px;
+    text-transform: uppercase;
+    font-weight: 750;
+}
+p {
+    font-size: 30px;
+}
+span {
+    color:red;
+}
+.slide-picture {
+    border-radius: 8px;
+    width: 450px;
+    height: 500px;
+}
+.head-main {
+    text-align:center;
+    margin-top: 80px;
+    font-size: 40px
+}
+.main {
+    color:blue;
+}
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 120px;
+}   
+.item {
+    background-color:rgb(240, 239, 239);
+    font-size: 30px;
+    align-items: center;
+    padding: 30px;
+    width: 400px;
+    height: 480px;
+}
+/*button*/
+.btn {
+    position: absolute;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:200px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 30px;
+    border: none;
+    text-decoration: none;
+    color:grey;
+    background-color: rgba(170, 166, 166, 0.133);
+    cursor: pointer;
+    transition:opacity 0.2s ease;
+}
+.btn:hover {
+    opacity: 0.5;
+}
+.btn-left {
+    margin-left:-80px;
+}
+.btn-right {
+    margin-left: -20px;
+}
+.top-seller {
+    position: absolute;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:white;
+    display:flexbox;
+    flex-direction: row;
+    width:150px;
+    height:30px;
+    margin: 0px 310px;
+    padding:4px 0px;
+    align-items:center;
+    background-color: red; 
+     
+}
+.name {
+    position: relative;
+    text-align: center;
+}
+.discount-product {
+    display:flex;
+    margin-right: 40px;
+    justify-content: space-between;
+}
+.item-product-one {
+    flex:2;
+}
+.item-product {
+    width:90%;
+    height: 90%;
+}
+.item-product-two {
+    flex:3;
+    display: flex;
+    flex-direction: column;     
+}
+.item-product1 {
+    display: inline-flex;
+    color:grey;
+}
+.item-product2 {
+    display:flex; 
+    justify-content: space-around;  
+}
+.item-name {
+    text-align: center;
+    z-index: 0;
+}
+.sale {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:white;
+    display: flexbox;
+    flex-direction: row;
+    width:150px;
+    height:30px;
+    margin: 0px 310px;
+    padding:4px 0px;
+    background-color: red; 
+    z-index: 1; 
+    text-align: center; 
+}
+.item-two {
+    background-color: rgb(240, 239, 239);
+    padding: 30px;
+    width: 400px;
+    height: 500px;
+}
+.viewall {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 25px;
+    color:grey;
+    display: flexbox;
+    flex-direction: row;
+    width:120px;
+    height:30px;
+    padding:10px;
+    margin:70px 1000px;
+    background-color: rgb(240, 239, 239);    
+}
+.viewtwo {
+    display: inline-flex;   
+}
+.selling-product {
+    display:flex;
+    justify-content: space-between;
+    margin-left:40px;
+}
+.discount-one {
+    flex:3;
+}
+.item-discount {
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.item1-discount{
+    color:grey;
+    display: inline-flex;
+}
+.discount-two {
+    flex:2;
+    margin-left:20px;
+}
+.item-product-second {
+    width: 100%;
+    height:90%;
+}
+.end {
+    text-align: center;
+    margin: auto;
+}
+#end {
+    color:black;
+    font-size: 50px;
+    font-weight: 700;
+}
+.end-content {
+    display: flex;
+    width: 40%;
+    font-size: 20px;
+    color:grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    margin:auto;  
+} 
+#descript {
+    color:rgb(52, 52, 52); 
+    font-size: 20px;
+}
+.footter {
+    margin: 70px 40px 50px 100px;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(52, 52, 52);
+    display: flex;
+    justify-content: space-around;
+}
+.footter-logo, .one, .two {
+    flex:1;
+}
+.three {
+    flex:2;
+}
+.menu {
+    list-style: none;
+    
+}
+.copy {
+    text-align: center;
+
+}
+.icon {
+    display: inline-block;
+    margin: 15px;
+    display: inline-flex;
+    align-items: center;
+}
+.fa-facebook {
+    font-size: 24px;
+    opacity: 0.6;
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width:  46.25em) and (max-width:63.9375em) {
+    body, html {
+        width:160%;
+    }
+    .nav-top, .nav-top-item {
+        margin:30px;
+    }
+    .nav-top-item,  .nav-list {
+        font-size:30px;
+    }
+    p {
+        font-size: 35px;
+    }
+    .item-icon {
+        margin:30px;
+    }
+    .end-content, .fotter, .menu, #descript {
+        font-size:33px;
+        color:rgb(9, 9, 9)
+        font-weight:300;
+    }
+}
+/* Mobile: width <740px */
+@media only screen and (max-width:46.1875em) {
+    body, html {
+        width:200%;
+    } 
+    .product-item {
+        margin: 75px 90px;
+    }
+    .item {
+        width: 300px;
+        height: 380px;
+        padding: 40px;
+    }
+    .top-seller {
+        padding-top: 5px;
+        width: 35px;
+        height: 6px;
+        font-size:15px;
+        font-weight: 300;
+        margin:0 265px;
+    }
+    .item-product {
+        width: 100%;
+        height: 100%;
+    }
+    .item-two {
+        padding: 40px;
+        width: 350px;
+        height: 400px;
+        margin:0px 35px
+    }
+    .viewall {
+        margin:70px 800px;
+    }
+    .nav-top-item,  .nav-list {
+        font-size:25px;
+    }
+    .item-icon {
+        margin:30px;
+    }
+    .end-content, .fotter, .menu, #descript {
+        font-size:25px;
+        color:rgb(9, 9, 9)
+        font-weight:300;
+    }
+}
